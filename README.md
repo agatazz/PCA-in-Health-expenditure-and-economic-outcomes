@@ -5,7 +5,7 @@ This repository contains a Python-based implementation of **Principal Component 
 
 ## Project Overview
 
-The goal of this project is to reduce the dimensionality of complex socioeconomic data while retaining as much variance as possible. This allows for better visualization of patterns, such as identifying clusters of countries with similar development profiles or health outcomes.
+The goal of this project is to reduce the dimensionality of complex socioeconomic and health data while retaining as much variance as possible. This allows for better visualization of patterns, such as identifying clusters of countries with similar development profiles or health outcomes.
 
 ##  Repository Structure
 
@@ -38,7 +38,7 @@ To run the notebook, you will need the following Python libraries:
 
 ## Key Insights
 
-The PCA helps in identifying which variables (like GDP or Life Expectancy) are the strongest drivers of difference between the observations in the datasets. It simplifies high-dimensional data into a few "Principal Components" that can be used for further machine learning tasks like K-Means Clustering.
+The positive correlation between economic prosperity and healthcare metrics suggests the existence of a general pattern: nations able to invest more in health tend to achieve better health outcomes, which in turn fosters a more productive workforce and further economic development. It is important to emphasize that the techniques deployed in this study identify patterns but cannot fully explain causality - PCA does not determine whether higher GDP leads to longer life expectancy or whether healthier populations drive economic growth.
 
 ---
 
